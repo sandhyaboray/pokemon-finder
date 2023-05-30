@@ -46,9 +46,14 @@ Type the name of the pokemon for example: bulbasaur in the input box and click o
 
 ## Testing
 
-The application includes unit tests for pages and api’s. 
-To run the tests, navigate to the /tests/ folder and folder 'pages' to run the tests for all pages
-or 'api' directory to run the tests for api's in the project and use the following command:
+The application includes unit tests for pages and api’s, navigate to the /tests/ folder. 
+To run the all the tests:
+
+```
+npm run test
+```
+
+To run individual tests navigate to 'pages' directory or 'api' directory 
 
 ```
 npm run test <filename>
