@@ -30,24 +30,33 @@ To get started with the Pokemon Evolution Finder application, follow the steps b
 2. Install dependencies: Navigate to the project directory and install the dependencies using npm:
    cd pokemon-finder
 
-````bash
+```
 npm install
+```
 
 3. Start the development server: Run the following command to start the development server:
 
-```bash
+```
 npm run dev
-This will start the application on [http://localhost:3000](http://localhost:3000). You can access it in your browser. Type the name of the pokemon for example: bulbasaur in the input box and click on the search button to view the result
+```
+
+This will start the application on [http://localhost:3000](http://localhost:3000). 
+You can access it in your browser. 
+Type the name of the pokemon for example: bulbasaur in the input box and click on the search button to view the result
 
 ## Testing
 
-The application includes unit tests for pages and api’s. To run the tests, Navigate to the /tests/ folder and folder 'pages' to run the tests for all pages or 'api' directory to run the tests for api's in the project and use the following command:
+The application includes unit tests for pages and api’s. 
+To run the tests, navigate to the /tests/ folder and folder 'pages' to run the tests for all pages
+or 'api' directory to run the tests for api's in the project and use the following command:
 
-```bash
+```
 npm run test <filename>
+```
 
 This will execute the tests and display the test results in the console as below:
 
+```
  PASS  tests/api/get-chain.test.ts
  PASS  tests/api/get-species-url.test.ts
  PASS  tests/api/get-evolution-chain-url.test.ts
