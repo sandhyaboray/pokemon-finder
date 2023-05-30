@@ -28,7 +28,7 @@ To get started with the Pokemon Evolution Finder application, follow the steps b
    git clone https://github.com/sandhyaboray/pokemon-finder.git
 
 2. Install dependencies: Navigate to the project directory and install the dependencies using npm:
-   cd pokemon-evolution-finder
+   cd pokemon-finder
 
 ````bash
 npm install
